@@ -13,7 +13,7 @@
   
 
 
-<a href="https://telegram.dog/PREDATOR_XD_BO"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
+<a href="https://telegram.dog/PREDATOR_XD_BOT"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
 
 
 ## CONTACT OWNER OF THIS REPO
