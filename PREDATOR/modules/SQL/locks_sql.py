@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean
 
-from Yuriko.modules.sql import SESSION, BASE
+from Predator.modules.sql import SESSION, BASE
 
 
 class Permissions(BASE):
