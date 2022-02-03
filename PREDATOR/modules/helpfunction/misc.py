@@ -1,6 +1,6 @@
 from typing import Dict, List
 
-from Yuriko import NO_LOAD
+from Predator import NO_LOAD
 from telegram import MAX_MESSAGE_LENGTH, Bot, InlineKeyboardButton, ParseMode
 from telegram.error import TelegramError
 
@@ -74,9 +74,9 @@ def paginate_modules(page_n: int, module_dict: Dict, prefix, chat=None) -> List:
     else:
         pairs += [
                   [
-                    EqInlineKeyboardButton("╰✰ Cʜᴀɴɴᴇʟ", url="t.me/Deecodebots"), 
-                    EqInlineKeyboardButton("✗ Bᴀᴄᴋ ✗", callback_data="yurikorobot_back"), 
-                    EqInlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ ✰╮", url="t.me/Decodesupport")
+                    EqInlineKeyboardButton("╰✰ Cʜᴀɴɴᴇʟ", url="t.me/devil_predator_xd_dk"), 
+                    EqInlineKeyboardButton("✗ Bᴀᴄᴋ ✗", callback_data="devil_predator_xd_dk"), 
+                    EqInlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ ✰╮", url="t.me/devil_predator_xd_dk")
                   ]
                  ]
 
