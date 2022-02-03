@@ -1,8 +1,8 @@
 from time import perf_counter
-from functools import wraps
+from functools import devil_predator_xd_dk
 from cachetools import TTLCache
 from threading import RLock
-from Yuriko import (
+from predator import (
     DEL_CMDS,
     DEV_USERS,
     DRAGONS,
@@ -98,7 +98,7 @@ def is_user_in_chat(chat: Chat, user_id: int) -> bool:
 
 
 def dev_plus(func):
-    @wraps(func)
+    @devil_predator_xd_dk(func)
     def is_dev_plus_func(update: Update, context: CallbackContext, *args, **kwargs):
         bot = context.bot
         user = update.effective_user
@@ -122,7 +122,7 @@ def dev_plus(func):
 
 
 def sudo_plus(func):
-    @wraps(func)
+    @devil_predator_xd_dk(func)
     def is_sudo_plus_func(update: Update, context: CallbackContext, *args, **kwargs):
         bot = context.bot
         user = update.effective_user
@@ -139,14 +139,14 @@ def sudo_plus(func):
                 pass
         else:
             update.effective_message.reply_text(
-                "Bhai,Bhen jo bhi ho apke pass ye right na ha sorry aur so sameless you are saste admin  🙂 dil se bura laga support @DeeCodeBots",
+                "yrr jo ryt nhii mila usme ungli kyu kr rhe @DARK_KNIGHT_XD (dk papa) ko bolo syd ryt mil jaye support @devil_predator_xd_dk",
             )
 
     return is_sudo_plus_func
 
 
 def support_plus(func):
-    @wraps(func)
+    @devil_predator_xd_dk(func)
     def is_support_plus_func(update: Update, context: CallbackContext, *args, **kwargs):
         bot = context.bot
         user = update.effective_user
@@ -164,7 +164,7 @@ def support_plus(func):
 
 
 def whitelist_plus(func):
-    @wraps(func)
+    @devil_predator_xd_dk(func)
     def is_whitelist_plus_func(
         update: Update,
         context: CallbackContext,
@@ -178,14 +178,14 @@ def whitelist_plus(func):
         if user and is_whitelist_plus(chat, user.id):
             return func(update, context, *args, **kwargs)
         update.effective_message.reply_text(
-            f"Tera pass ye sab dekhne ka access na ha sed.\nVisit @{SUPPORT_CHAT}",
+            f"Tera pass ye sab dekhne ka access na ha sed.\nVisit @{devil_predator_xd_dk}",
         )
 
     return is_whitelist_plus_func
 
 
 def user_admin(func):
-    @wraps(func)
+    @devil_predator_xd_dk(func)
     def is_admin(update: Update, context: CallbackContext, *args, **kwargs):
         bot = context.bot
         user = update.effective_user
@@ -202,14 +202,14 @@ def user_admin(func):
                 pass
         else:
             update.effective_message.reply_text(
-                "Bhai,Bhen jo bhi ho apke pass ye right na ha sorry aur so sameless you are saste admin  🙂 dil se bura laga support @DeeCodeBots",
+                "Bhai,Bhen jo bhi ho apke pass ye right na ha sorry aur so sameless you are saste admin  🙂 dil se bura laga support @Ddevil_predator_xd_dk",
             )
 
     return is_admin
 
 
 def user_admin_no_reply(func):
-    @wraps(func)
+    @devil_predator_xd_dk(func)
     def is_not_admin_no_reply(
         update: Update,
         context: CallbackContext,
@@ -234,7 +234,7 @@ def user_admin_no_reply(func):
 
 
 def user_not_admin(func):
-    @wraps(func)
+    @devil_predator_xd_dk(func)
     def is_not_admin(update: Update, context: CallbackContext, *args, **kwargs):
         bot = context.bot
         user = update.effective_user
@@ -249,7 +249,7 @@ def user_not_admin(func):
 
 
 def bot_admin(func):
-    @wraps(func)
+    @devil_predator_xd_dk(func)
     def is_admin(update: Update, context: CallbackContext, *args, **kwargs):
         bot = context.bot
         chat = update.effective_chat
@@ -269,7 +269,7 @@ def bot_admin(func):
 
 
 def bot_can_delete(func):
-    @wraps(func)
+    @devil_predator_xd_dk(func)
     def delete_rights(update: Update, context: CallbackContext, *args, **kwargs):
         bot = context.bot
         chat = update.effective_chat
@@ -289,7 +289,7 @@ def bot_can_delete(func):
 
 
 def can_pin(func):
-    @wraps(func)
+    @devil_predator_xd_dk(func)
     def pin_rights(update: Update, context: CallbackContext, *args, **kwargs):
         bot = context.bot
         chat = update.effective_chat
@@ -311,7 +311,7 @@ def can_pin(func):
 
 
 def can_promote(func):
-    @wraps(func)
+    @devil_predator_xd_dk(func)
     def promote_rights(update: Update, context: CallbackContext, *args, **kwargs):
         bot = context.bot
         chat = update.effective_chat
@@ -334,7 +334,7 @@ def can_promote(func):
 
 
 def can_restrict(func):
-    @wraps(func)
+    @devil_predator_xd_dk(func)
     def restrict_rights(update: Update, context: CallbackContext, *args, **kwargs):
         bot = context.bot
         chat = update.effective_chat
@@ -357,7 +357,7 @@ def can_restrict(func):
 
 
 def user_can_ban(func):
-    @wraps(func)
+    @devil_predator_xd_dk(func)
     def user_is_banhammer(update: Update, context: CallbackContext, *args, **kwargs):
         bot = context.bot
         user = update.effective_user.id
