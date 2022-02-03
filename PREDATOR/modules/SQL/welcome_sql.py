@@ -2,8 +2,8 @@ import random
 import threading
 from typing import Union
 
-from Yuriko.modules.helper_funcs.msg_types import Types
-from Yuriko.modules.sql import BASE, SESSION
+from Predator.modules.helper_funcs.msg_types import Types
+from Predator.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, String, UnicodeText
 from sqlalchemy.sql.sqltypes import BigInteger
 
