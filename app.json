@@ -1,5 +1,5 @@
 {
-      "name": "Yuriko Robot",
+      "name": "Predator",
       "description": "A Powerful  Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -9,7 +9,7 @@
          "naorobot"
       ],
     
-   "logo":    "https://telegra.ph/file/1495fab0586fe05160204.jpg",  
+   "logo":    "https://telegra.ph/file/bce25fa23314ffee6a8ed.jpg",  
    "repository": "https://github.com/TeamDeeCode/yuriko",
    "addons": [
           {
