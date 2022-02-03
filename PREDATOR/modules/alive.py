@@ -1,4 +1,3 @@
-# Taken From https://github.com/AASFCYBERKING/SerenaRobot/blob/Aasf/SerenaRobot/modules/alive.py
 import asyncio
 import os
 import requests
@@ -23,7 +22,7 @@ file4 = "https://telegra.ph/file/bce25fa23314ffee6a8ed.jpg"
 file5 = "https://telegra.ph/file/bce25fa23314ffee6a8ed.jpg"
 """ =======================PREDATOR====================== """
 
-BUTTON = [[Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DeCodeSupport"), Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/DeeCodeBots")]]
+
 
 
 START_TIME = datetime.utcnow()
