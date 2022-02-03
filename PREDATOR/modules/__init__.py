@@ -1,4 +1,4 @@
-from Yuriko import LOAD, NO_LOAD, LOGGER
+from Predator import LOAD, NO_LOAD, LOGGER
 import sys
 
 
