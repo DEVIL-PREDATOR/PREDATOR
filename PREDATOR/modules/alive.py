@@ -9,19 +9,19 @@ from io import BytesIO
 from datetime import datetime
 import random
 from telethon import events, Button, custom, version
-from Yuriko.events import register
-from Yuriko import telethn as aasf
-from Yuriko import StartTime, dispatcher
+from predator.events import register
+from predator import telethn as aasf
+from predator import StartTime, dispatcher
 from telethon.tl.types import ChannelParticipantsAdmins
 
 edit_time = 5
-""" =======================YURIKO====================== """
-file1 = "https://telegra.ph/file/1ad7188c8390b5c36b9a8.jpg"
-file2 = "https://telegra.ph/file/73fc670e1dc78d1857b67.jpg"
-file3 = "https://telegra.ph/file/4b29739e7fd46b2111e55.jpg"
-file4 = "https://telegra.ph/file/956b7a50ec1f0a9802b8b.jpg"
-file5 = "https://telegra.ph/file/2fdff4fc6f3e015eb9a51.jpg"
-""" =======================YURIKO====================== """
+""" =======================PREDATOR====================== """
+file1 = "https://telegra.ph/file/bce25fa23314ffee6a8ed.jpg"
+file2 = "https://telegra.ph/file/bce25fa23314ffee6a8ed.jpg"
+file3 = "https://telegra.ph/file/bce25fa23314ffee6a8ed.jpg"
+file4 = "https://telegra.ph/file/bce25fa23314ffee6a8ed.jpg"
+file5 = "https://telegra.ph/file/bce25fa23314ffee6a8ed.jpg"
+""" =======================PREDATOR====================== """
 
 BUTTON = [[Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DeCodeSupport"), Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/DeeCodeBots")]]
 
