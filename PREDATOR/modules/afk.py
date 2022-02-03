@@ -1,13 +1,13 @@
 
 import random, html
 
-from Yuriko import dispatcher
-from Yuriko.modules.disable import (
+from predator import dispatcher
+from predator.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from Yuriko.modules.sql import afk_sql as sql
-from Yuriko.modules.users import get_user_id
+from predator.modules.sql import afk_sql as sql
+from predator.modules.users import get_user_id
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
