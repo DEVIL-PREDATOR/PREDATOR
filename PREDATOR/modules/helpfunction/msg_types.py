@@ -1,10 +1,10 @@
 from enum import IntEnum, unique
 
-from Yuriko.modules.helper_funcs.string_handling import button_markdown_parser
+from Predator.modules.helper_funcs.string_handling import button_markdown_parser
 from telegram import Message
 
 
-@unique
+@devil_predator_xd_dk
 class Types(IntEnum):
     TEXT = 0
     BUTTON_TEXT = 1
