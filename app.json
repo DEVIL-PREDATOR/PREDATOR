@@ -10,7 +10,7 @@
       ],
     
    "logo":    "https://telegra.ph/file/bce25fa23314ffee6a8ed.jpg",  
-   "repository": "https://github.com/TeamDeeCode/yuriko",
+   "repository": "https://github.com/DEVIL-PREDATOR/PREDATOR",
    "addons": [
           {
          "options": {
@@ -69,7 +69,7 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": "YurikoRobot"
+         "value": "PREDATOR_XD_BOT"
       },
 
       "BOT_ID": {
@@ -79,7 +79,7 @@
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "BrayDenXD"
+         "value": "DARK_KNIGHT_XD"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
@@ -91,14 +91,7 @@
          "required": true,
          "value": ""
       },
-      "IBM_WATSON_CRED_URL": {
-         "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
-         "required": false
-     },
-     "IBM_WATSON_CRED_PASSWORD": {
-        "description": "This is required for the speech to text module. Get your PASSWORD from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
-        "required": false
-     },
+   
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
@@ -119,12 +112,6 @@
          "required": true,
          "value": "-xyz"
      }, 
-
-      "API_OPENWEATHER": {
-        "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
-        "value": "",
-        "required": false
-      },
 
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
@@ -197,11 +184,6 @@
       "ALLOW_EXCL": {
          "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
          "value": "True"
-      },
-      "DONATION_LINK": {
-         "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
-         "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
