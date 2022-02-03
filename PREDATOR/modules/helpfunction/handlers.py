@@ -1,6 +1,6 @@
-import Yuriko.modules.sql.blacklistusers_sql as sql
-from Yuriko import ALLOW_EXCL
-from Yuriko import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
+import Predator.modules.sql.blacklistusers_sql as sql
+from Predator import ALLOW_EXCL
+from Predator import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
 
 from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, RegexHandler, Filters
