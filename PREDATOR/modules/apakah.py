@@ -1,6 +1,6 @@
 import random
-from Yuriko.events import register
-from Yuriko import telethn
+from Predator.events import register
+from Predator import telethn
 
 APAKAH_STRING = ["Iya", 
                  "Tidak", 
