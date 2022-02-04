@@ -5,23 +5,23 @@ from telegram import ParseMode, Message
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler
 
-import Yuriko.modules.sql.notes_sql as sql
-from Yuriko import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
-from Yuriko.__main__ import DATA_IMPORT
-from Yuriko.modules.helper_funcs.chat_status import user_admin
-from Yuriko.modules.helper_funcs.alternate import typing_action
+import Predator.modules.sql.notes_sql as sql
+from Predator import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
+from Predator.__main__ import DATA_IMPORT
+from Predator.modules.helper_funcs.chat_status import user_admin
+from Predator.modules.helper_funcs.alternate import typing_action
 
-# from Yuriko.modules.rules import get_rules
-import Yuriko.modules.sql.rules_sql as rulessql
+# from Predator.modules.rules import get_rules
+import Predator.modules.sql.rules_sql as rulessql
 
-# from Yuriko.modules.sql import warns_sql as warnssql
-import Yuriko.modules.sql.blacklist_sql as blacklistsql
-from Yuriko.modules.sql import disable_sql as disabledsql
+# from Predator.modules.sql import warns_sql as warnssql
+import Predator.modules.sql.blacklist_sql as blacklistsql
+from Predator.modules.sql import disable_sql as disabledsql
 
-# from Yuriko.modules.sql import cust_filters_sql as filtersql
-# import Yuriko.modules.sql.welcome_sql as welcsql
-import Yuriko.modules.sql.locks_sql as locksql
-from Yuriko.modules.connection import connected
+# from Predator.modules.sql import cust_filters_sql as filtersql
+# import Predator.modules.sql.welcome_sql as welcsql
+import Predator.modules.sql.locks_sql as locksql
+from Predator.modules.connection import connected
 
 
 @user_admin
