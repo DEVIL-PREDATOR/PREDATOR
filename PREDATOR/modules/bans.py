@@ -14,10 +14,10 @@ from telegram.utils.helpers import mention_html
 from typing import Optional, List
 from telegram import TelegramError
 
-import Yuriko.modules.sql.users_sql as sql
-from Yuriko.modules.disable import DisableAbleCommandHandler
-from Yuriko.modules.helper_funcs.filters import CustomFilters
-from Yuriko import (
+import Predator.modules.sql.users_sql as sql
+from Predator.modules.disable import DisableAbleCommandHandler
+from Predator.modules.helper_funcs.filters import CustomFilters
+from Predator import (
     DEV_USERS,
     LOGGER,
     OWNER_ID,
@@ -27,7 +27,7 @@ from Yuriko import (
     WOLVES,
     dispatcher,
 )
-from Yuriko.modules.helper_funcs.chat_status import (
+from Predator.modules.helper_funcs.chat_status import (
     user_admin_no_reply,
     bot_admin,
     can_restrict,
@@ -40,9 +40,9 @@ from Yuriko.modules.helper_funcs.chat_status import (
     can_delete,
     dev_plus,
 )
-from Yuriko.modules.helper_funcs.extraction import extract_user_and_text
-from Yuriko.modules.helper_funcs.string_handling import extract_time
-from Yuriko.modules.log_channel import gloggable, loggable
+from Predator.modules.helper_funcs.extraction import extract_user_and_text
+from Predator.modules.helper_funcs.string_handling import extract_time
+from Predator.modules.log_channel import gloggable, loggable
 
 
 
