@@ -3,12 +3,12 @@ import re
 import os
 import html
 import requests
-import Yuriko.modules.sql.kuki_sql as sql
+import Predator.modules.sql.kuki_sql as sql
 
 from time import sleep
 from telegram import ParseMode
-from Yuriko import dispatcher, updater, SUPPORT_CHAT
-from Yuriko.modules.log_channel import gloggable
+from Predator import dispatcher, updater, SUPPORT_CHAT
+from Predator.modules.log_channel import gloggable
 from telegram import (CallbackQuery, Chat, MessageEntity, InlineKeyboardButton,
                       InlineKeyboardMarkup, Message, ParseMode, Update, Bot, User)
 
@@ -18,23 +18,23 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 
-from Yuriko.modules.helper_funcs.filters import CustomFilters
-from Yuriko.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply 
+from Predator.modules.helper_funcs.filters import CustomFilters
+from Predator.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply 
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 
  
 @user_admin_no_reply
 @gloggable
-def kukirm(update: Update, context: CallbackContext) -> str:
+def knightrm(update: Update, context: CallbackContext) -> str:
     query: Optional[CallbackQuery] = update.callback_query
     user: Optional[User] = update.effective_user
     match = re.match(r"rm_chat\((.+?)\)", query.data)
     if match:
         user_id = match.group(1)
         chat: Optional[Chat] = update.effective_chat
-        is_kuki = sql.rem_kuki(chat.id)
-        if is_kuki:
-            is_kuki = sql.rem_kuki(user_id)
+        is_knight = sql.rem_kuki(chat.id)
+        if is_knight:
+            is_knight = sql.rem_kuki(user_id)
             return (
                 f"<b>{html.escape(chat.title)}:</b>\n"
                 f"AI_DISABLED\n"
