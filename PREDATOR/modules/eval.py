@@ -6,8 +6,8 @@ import textwrap
 import traceback
 from contextlib import redirect_stdout
 
-from Yuriko import LOGGER, dispatcher
-from Yuriko.modules.helper_funcs.chat_status import dev_plus
+from Predator import LOGGER, dispatcher
+from Predator.modules.helper_funcs.chat_status import dev_plus
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
