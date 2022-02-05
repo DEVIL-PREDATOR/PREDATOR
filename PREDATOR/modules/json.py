@@ -1,6 +1,6 @@
 import io
-from Yuriko.events import register
-from Yuriko import telethn as tbot
+from Predator.events import register
+from Predator import telethn as tbot
 from telethon import types
 from telethon import events
 from telethon.tl import functions
