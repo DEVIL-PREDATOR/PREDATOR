@@ -9,9 +9,9 @@ from telegram import (
     InlineKeyboardMarkup,
     InlineKeyboardButton,
 )
-from Yuriko import dispatcher, pbot
+from Predator import dispatcher, pbot
 from pyrogram import filters
-from Yuriko.modules.disable import DisableAbleCommandHandler
+from Predator.modules.disable import DisableAbleCommandHandler
 
 
 __help__ = """ 
@@ -45,7 +45,6 @@ ml,mn,mr,ms,mt,my,ne,nl,no,ny,pa,pl,ps,pt,ro,ru,sd,si,sk,sl,
 sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
 vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
 
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
 """
 
 __mod_name__ = "Tʀᴀɴꜱʟᴀᴛᴏʀ"
