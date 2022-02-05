@@ -9,17 +9,17 @@ from better_profanity import profanity
 from google_trans_new import google_translator
 from telethon import events
 from telethon.tl.types import ChatBannedRights
-from Yuriko.confing import get_int_key, get_str_key
-from Yuriko.services.telethonbasics import is_admin
-from Yuriko.events import register
+from Predator.confing import get_int_key, get_str_key
+from Predator.services.telethonbasics import is_admin
+from Predator.events import register
 from pymongo import MongoClient
-from Yuriko.modules.sql.nsfw_watch_sql import (
+from Predator.modules.sql.nsfw_watch_sql import (
     add_nsfwatch,
     get_all_nsfw_enabled_chat,
     is_nsfwatch_indb,
     rmnsfwatch,
 )
-from Yuriko import telethn as tbot, MONGO_DB_URI, BOT_ID
+from Predator import telethn as tbot, MONGO_DB_URI, BOT_ID
 
 translator = google_translator()
 MUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
