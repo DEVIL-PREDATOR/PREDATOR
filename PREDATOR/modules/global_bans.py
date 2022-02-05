@@ -13,9 +13,9 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import Yuriko.modules.sql.global_bans_sql as sql
-from Yuriko.modules.sql.users_sql import get_user_com_chats
-from Yuriko import (
+import Predator.modules.sql.global_bans_sql as sql
+from Predator.modules.sql.users_sql import get_user_com_chats
+from Predator import (
     DEV_USERS,
     EVENT_LOGS,
     OWNER_ID,
@@ -29,16 +29,16 @@ from Yuriko import (
     sw,
     dispatcher,
 )
-from Yuriko.modules.helper_funcs.chat_status import (
+from Predator.modules.helper_funcs.chat_status import (
     is_user_admin,
     support_plus,
     user_admin,
 )
-from Yuriko.modules.helper_funcs.extraction import (
+from Predator.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from Yuriko.modules.helper_funcs.misc import send_to_list
+from Predator.modules.helper_funcs.misc import send_to_list
 
 GBAN_ENFORCE_GROUP = 6
 
