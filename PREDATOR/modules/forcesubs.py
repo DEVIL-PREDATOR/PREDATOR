@@ -10,9 +10,9 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from Yuriko import DRAGONS as SUDO_USERS
-from Yuriko import pbot
-from Yuriko.modules.sql import forceSubscribe_sql as sql
+from Predator import DRAGONS as SUDO_USERS
+from Predator import pbot
+from Predator.modules.sql import forceSubscribe_sql as sql
 
 logging.basicConfig(level=logging.INFO)
 
@@ -109,7 +109,7 @@ def _check_member(client, message):
                     )
                 except ChatAdminRequired:
                     sent_message.edit(
-                        "😕 **Yuriko is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
+                        "😕 **Predator is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
                     )
 
             except ChatAdminRequired:
@@ -180,7 +180,7 @@ def config(client, message):
 __help__ = """
 *Force Subscribe:*
 
-✗ `Yuriko can mute members who are not subscribed your channel until they subscribe`
+✗ `Predator can mute members who are not subscribed your channel until they subscribe`
 
 ✗ `When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them`
 
@@ -217,6 +217,6 @@ __help__ = """
 ✗ /fedadminhelp - `Provides help for fed administration commands`
 ✗ /feduserhelp - `Provides help for commands anyone can use`
 
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: DARK KNIGHT!*
 """
 __mod_name__ = "Fꜱᴜʙ & Fᴇᴅꜱ"
