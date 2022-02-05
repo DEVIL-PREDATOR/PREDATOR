@@ -5,7 +5,7 @@ import bs4
 import requests
 from telethon import types
 from telethon.tl import functions
-from Yuriko.events import register
+from Predator.events import register
 
 langi = "en"
 
