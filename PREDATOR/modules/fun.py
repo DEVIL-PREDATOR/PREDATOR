@@ -2,11 +2,11 @@ import html
 import random
 import time
 
-import Yuriko.modules.fun_strings as fun_strings
-from Yuriko import dispatcher
-from Yuriko.modules.disable import DisableAbleCommandHandler
-from Yuriko.modules.helper_funcs.chat_status import is_user_admin
-from Yuriko.modules.helper_funcs.extraction import extract_user
+import Predator.modules.fun_strings as fun_strings
+from Predator import dispatcher
+from Predator.modules.disable import DisableAbleCommandHandler
+from Predator.modules.helper_funcs.chat_status import is_user_admin
+from Predator.modules.helper_funcs.extraction import extract_user
 from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext
