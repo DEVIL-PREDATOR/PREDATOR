@@ -2,9 +2,9 @@ import importlib
 from typing import Union
 
 from future.utils import string_types
-from Yuriko import dispatcher
-from Yuriko.modules.helper_funcs.handlers import CMD_STARTERS, SpamChecker
-from Yuriko.modules.helper_funcs.misc import is_module_loaded
+from Predator import dispatcher
+from Predator.modules.helper_funcs.handlers import CMD_STARTERS, SpamChecker
+from Predator.modules.helper_funcs.misc import is_module_loaded
 from telegram import ParseMode, Update
 from telegram.ext import (
     CallbackContext,
@@ -22,12 +22,12 @@ FILENAME = __name__.rsplit(".", 1)[-1]
 # If module is due to be loaded, then setup all the magical handlers
 if is_module_loaded(FILENAME):
 
-    from Yuriko.modules.helper_funcs.chat_status import (
+    from Predator.modules.helper_funcs.chat_status import (
         connection_status,
         is_user_admin,
         user_admin,
     )
-    from Yuriko.modules.sql import disable_sql as sql
+    from Predator.modules.sql import disable_sql as sql
 
     DISABLE_CMDS = []
     DISABLE_OTHER = []
