@@ -1,4 +1,3 @@
-# By @TroJanzHEX
 # Improved by TeamDaisyX
 
 from pyrogram import filters
@@ -9,8 +8,7 @@ from pyrogram.types import (
     Message,
 )
 
-# By @TroJanzHEX
-from Yuriko.ex_plugins.ImageEditor.edit_1 import (  # pylint:disable=import-error
+from Predator.ex_plugins.ImageEditor.edit_1 import (  # pylint:disable=import-error
     black_white,
     box_blur,
     bright,
@@ -18,7 +16,7 @@ from Yuriko.ex_plugins.ImageEditor.edit_1 import (  # pylint:disable=import-erro
     mix,
     normal_blur,
 )
-from Yuriko.ex_plugins.ImageEditor.edit_2 import (  # pylint:disable=import-error
+from Predator.ex_plugins.ImageEditor.edit_2 import (  # pylint:disable=import-error
     cartoon,
     circle_with_bg,
     circle_without_bg,
@@ -28,13 +26,13 @@ from Yuriko.ex_plugins.ImageEditor.edit_2 import (  # pylint:disable=import-erro
     sepia_mode,
     sticker,
 )
-from Yuriko.ex_plugins.ImageEditor.edit_3 import (  # pylint:disable=import-error
+from Predator.ex_plugins.ImageEditor.edit_3 import (  # pylint:disable=import-error
     black_border,
     blue_border,
     green_border,
     red_border,
 )
-from Yuriko.ex_plugins.ImageEditor.edit_4 import (  # pylint:disable=import-error
+from Predator.ex_plugins.ImageEditor.edit_4 import (  # pylint:disable=import-error
     inverted,
     removebg_plain,
     removebg_sticker,
@@ -44,7 +42,7 @@ from Yuriko.ex_plugins.ImageEditor.edit_4 import (  # pylint:disable=import-erro
     rotate_270,
     round_sticker,
 )
-from Yuriko.ex_plugins.ImageEditor.edit_5 import (  # pylint:disable=import-error
+from Predator.ex_plugins.ImageEditor.edit_5 import (  # pylint:disable=import-error
     normalglitch_1,
     normalglitch_2,
     normalglitch_3,
@@ -56,7 +54,7 @@ from Yuriko.ex_plugins.ImageEditor.edit_5 import (  # pylint:disable=import-erro
     scanlineglitch_4,
     scanlineglitch_5,
 )
-from Yuriko import pbot
+from Predator import pbot
 
 lel = 00000000
 # pylint:disable=import-error
