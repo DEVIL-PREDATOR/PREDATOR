@@ -1,6 +1,6 @@
-from Yuriko import telethn as tbot
+from Predator import telethn as tbot
 import os
-from Yuriko.events import register
+from Predator.events import register
 import secureme
 
 
