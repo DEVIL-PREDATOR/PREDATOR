@@ -7,8 +7,8 @@ import time
 import uuid
 from io import BytesIO
 
-import Yuriko.modules.sql.feds_sql as sql
-from Yuriko import (
+import Predator.modules.sql.feds_sql as sql
+from Predator import (
     EVENT_LOGS,
     LOGGER,
     SUPPORT_CHAT,
@@ -18,15 +18,15 @@ from Yuriko import (
     WOLVES,
     dispatcher,
 )
-from Yuriko.modules.disable import DisableAbleCommandHandler
-from Yuriko.modules.helper_funcs.alternate import send_message
-from Yuriko.modules.helper_funcs.chat_status import is_user_admin
-from Yuriko.modules.helper_funcs.extraction import (
+from Predator.modules.disable import DisableAbleCommandHandler
+from Predator.modules.helper_funcs.alternate import send_message
+from Predator.modules.helper_funcs.chat_status import is_user_admin
+from Predator.modules.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from Yuriko.modules.helper_funcs.string_handling import markdown_parser
+from Predator.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
@@ -43,15 +43,7 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, mention_markdown
 
-# Hello bot owner, I spended for feds many hours of my life, Please don't remove this if you still respect MrYacha and peaktogoo and AyraHikari too
-# Federation by MrYacha 2018-2019
-# Federation rework by Mizukito Akito 2019
-# Federation update v2 by Ayra Hikari 2019
-# Time spended on feds = 10h by #MrYacha
-# Time spended on reworking on the whole feds = 22+ hours by @peaktogoo
-# Time spended on updating version to v2 = 26+ hours by @AyraHikari
-# Total spended for making this features is 68+ hours
-# LOGGER.info("Original federation module by MrYacha, reworked by Mizukito Akito (@peaktogoo) on Telegram.")
+# Hello bot owner, I spended for feds many hours of my life, Please don't remove this if you still respect DARK KNIGHT
 
 FBAN_ERRORS = {
     "User is an administrator of the chat",
