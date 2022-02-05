@@ -5,8 +5,8 @@ from telethon import events
 from telegram import Update
 from telegram.ext import CallbackContext, CommandHandler
 
-from Yuriko import telethn, dispatcher
-from Yuriko.modules.helper_funcs.chat_status import dev_plus
+from Predator import telethn, dispatcher
+from Predator.modules.helper_funcs.chat_status import dev_plus
 
 DEBUG_MODE = False
 
