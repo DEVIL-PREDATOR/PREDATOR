@@ -32,9 +32,9 @@ import speedtest
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 from pyrogram.types import Message
 
-from Yuriko import aiohttpsession as aiosession
-from Yuriko.ex_plugins.dbfunctions import start_restart_stage
-from Yuriko.utils.http import get, post
+from Predator import aiohttpsession as aiosession
+from Predator.ex_plugins.dbfunctions import start_restart_stage
+from Predator.utils.http import get, post
 
 
 async def restart(m: Message):
