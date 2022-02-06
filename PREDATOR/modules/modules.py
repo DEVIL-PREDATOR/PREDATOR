@@ -1,8 +1,8 @@
 import importlib
 import collections
 
-from Yuriko import dispatcher, telethn
-from Yuriko.__main__ import (
+from Predator import dispatcher, telethn
+from Predator.__main__ import (
     CHAT_SETTINGS,
     DATA_EXPORT,
     DATA_IMPORT,
@@ -13,7 +13,7 @@ from Yuriko.__main__ import (
     USER_INFO,
     USER_SETTINGS,
 )
-from Yuriko.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from Predator.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler
 
