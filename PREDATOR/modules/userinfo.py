@@ -18,7 +18,7 @@ from telegram.ext.dispatcher import run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
     
-from Yuriko import (
+from Predator import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -31,16 +31,16 @@ from Yuriko import (
     StartTime,
     SUPPORT_CHAT,
 )
-from Yuriko.__main__ import STATS, TOKEN, USER_INFO
-from Yuriko.modules.sql import SESSION
-import Yuriko.modules.sql.userinfo_sql as sql
-from Yuriko.modules.disable import DisableAbleCommandHandler
-from Yuriko.modules.sql.global_bans_sql import is_user_gbanned
-from Yuriko.modules.sql.afk_sql import is_afk, set_afk
-from Yuriko.modules.sql.users_sql import get_user_num_chats
-from Yuriko.modules.helper_funcs.chat_status import sudo_plus
-from Yuriko.modules.helper_funcs.extraction import extract_user
-from Yuriko import telethn
+from Predator.__main__ import STATS, TOKEN, USER_INFO
+from Predator.modules.sql import SESSION
+import Predator.modules.sql.userinfo_sql as sql
+from Predator.modules.disable import DisableAbleCommandHandler
+from Predator.modules.sql.global_bans_sql import is_user_gbanned
+from Predator.modules.sql.afk_sql import is_afk, set_afk
+from Predator.modules.sql.users_sql import get_user_num_chats
+from Predator.modules.helper_funcs.chat_status import sudo_plus
+from Predator.modules.helper_funcs.extraction import extract_user
+from Predator import telethn
 
 def no_by_per(totalhp, percentage):
     """
