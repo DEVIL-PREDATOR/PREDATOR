@@ -1,9 +1,9 @@
 import html
 
-from Yuriko import LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher
-from Yuriko.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from Yuriko.modules.log_channel import loggable
-from Yuriko.modules.sql import reporting_sql as sql
+from Predator import LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher
+from Predator.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from Predator.modules.log_channel import loggable
+from Predator.modules.sql import reporting_sql as sql
 from telegram import Chat, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (
