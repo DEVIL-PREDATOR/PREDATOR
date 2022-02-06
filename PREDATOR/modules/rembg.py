@@ -25,9 +25,9 @@ import requests
 from telethon import types
 from telethon.tl import functions
 
-from Yuriko import REM_BG_API_KEY
-from Yuriko.events import register
-from Yuriko import telethn as tbot
+from Predator import REM_BG_API_KEY
+from Predator.events import register
+from Predator import telethn as tbot
 
 REM_BG_API_KEY = "REM_BG_API_KEY"
 TEMP_DOWNLOAD_DIRECTORY = "./"
