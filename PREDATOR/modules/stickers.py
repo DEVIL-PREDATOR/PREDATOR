@@ -13,8 +13,8 @@ from telegram import TelegramError, Update
 from telegram.ext import CallbackContext
 from telegram.utils.helpers import mention_html
 
-from Yuriko import dispatcher
-from Yuriko.modules.disable import DisableAbleCommandHandler
+from Predator import dispatcher
+from Predator.modules.disable import DisableAbleCommandHandler
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 
