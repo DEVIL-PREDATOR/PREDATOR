@@ -7,10 +7,10 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton
 
-from Yuriko import aiohttpsession as session
-from Yuriko import pbot as app
-from Yuriko.utils.errors import capture_err
-from Yuriko.utils.pastebin import paste
+from Predator import aiohttpsession as session
+from Predator import pbot as app
+from Predator.utils.errors import capture_err
+from Predator.utils.pastebin import paste
 
 __mod_name__ = "Paste​"
 
