@@ -1,8 +1,8 @@
 import os
 import cv2
 from PIL import Image
-from Yuriko.events import register
-from Yuriko import telethn as tbot
+from Predator.events import register
+from Predator import telethn as tbot
 
 
 @register(pattern="^/tiny ?(.*)")
