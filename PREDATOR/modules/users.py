@@ -10,10 +10,10 @@ from telegram.ext import (
     MessageHandler,
 )
 
-import Yuriko.modules.sql.users_sql as sql
-from Yuriko import DEV_USERS, LOGGER, OWNER_ID, dispatcher
-from Yuriko.modules.helper_funcs.chat_status import dev_plus, sudo_plus
-from Yuriko.modules.sql.users_sql import get_all_users
+import Predator.modules.sql.users_sql as sql
+from Predator import DEV_USERS, LOGGER, OWNER_ID, dispatcher
+from Predator.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from Predator.modules.sql.users_sql import get_all_users
 
 USERS_GROUP = 4
 CHAT_GROUP = 5
