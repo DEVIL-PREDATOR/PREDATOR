@@ -4,9 +4,9 @@ import re
 import codecs
 from typing import List
 from random import randint
-from Yuriko.modules.helper_funcs.chat_status import user_admin
-from Yuriko.modules.disable import DisableAbleCommandHandler
-from Yuriko import (
+from Predator.modules.helper_funcs.chat_status import user_admin
+from Predator.modules.disable import DisableAbleCommandHandler
+from Predator import (
     dispatcher,
     WALL_API,
 )
@@ -27,9 +27,9 @@ from telegram import (
 from telegram.error import BadRequest
 from telegram.ext.dispatcher import run_async
 from telegram.ext import CallbackContext, Filters, CommandHandler
-from Yuriko import StartTime
-from Yuriko.modules.helper_funcs.chat_status import sudo_plus
-from Yuriko.modules.helper_funcs.alternate import send_action, typing_action
+from Predator import StartTime
+from Predator.modules.helper_funcs.chat_status import sudo_plus
+from Predator.modules.helper_funcs.alternate import send_action, typing_action
 
 MARKDOWN_HELP = f"""
 Markdown is a very powerful formatting tool supported by telegram. {dispatcher.bot.first_name} has some enhancements, to make sure that \
@@ -226,7 +226,7 @@ __help__ = """
 
 ✗ /lyrics (song name) - `This plugin searches for song lyrics with song name.`
 
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+
 """
 
 ECHO_HANDLER = DisableAbleCommandHandler(
