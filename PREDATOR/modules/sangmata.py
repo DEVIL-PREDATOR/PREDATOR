@@ -1,7 +1,7 @@
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from Yuriko import telethn as tbot
-from Yuriko.events import register
-from Yuriko import ubot2 as ubot
+from Predator import telethn as tbot
+from Predator.events import register
+from Predator import ubot2 as ubot
 from asyncio.exceptions import TimeoutError
 
 
