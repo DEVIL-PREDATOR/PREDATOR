@@ -1,7 +1,7 @@
 import speedtest
-from Yuriko import DEV_USERS, dispatcher
-from Yuriko.modules.disable import DisableAbleCommandHandler
-from Yuriko.modules.helper_funcs.chat_status import dev_plus
+from Predator import DEV_USERS, dispatcher
+from Predator.modules.disable import DisableAbleCommandHandler
+from Predator.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler
 
