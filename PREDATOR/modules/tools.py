@@ -1,7 +1,7 @@
 __mod_name__ = "Tᴏᴏʟꜱ"
 
 __help__ = """
-*Yuriko Info bot*
+*Predator Info bot*
 
 ✗  /sg <reply> - `To check history name`
 
@@ -57,5 +57,5 @@ __help__ = """
 
 ✗  /tagall - `for tag everyone at least 100 member first.`
 
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+
 """
