@@ -10,9 +10,9 @@ from io import BytesIO
 from datetime import datetime
 import random
 from telethon import events, version
-from Yuriko.events import register
-from Yuriko import telethn as aasf
-from Yuriko import StartTime, dispatcher
+from Predator.events import register
+from Predator import telethn as aasf
+from Predator import StartTime, dispatcher
 from telethon.tl.types import ChannelParticipantsAdmins
 
 edit_time = 5
@@ -29,7 +29,7 @@ async def hmm(event):
     chat = await event.get_chat()
     await event.delete()
     pm_caption = f"**Happy New Year 2022 From {(event.sender.first_name)} **\n\n"
-    pm_caption += "**By @TeamDeeCoDe X Team**\n\n"
+    pm_caption += "**By @dark_knight_xd X Team**\n\n"
     on = await aasf.send_file(event.chat_id, file=newyear1,caption=pm_caption)
 
     await asyncio.sleep(edit_time)
