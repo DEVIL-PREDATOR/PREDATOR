@@ -22,22 +22,22 @@ from pyrogram.types import (CallbackQuery,
                             InputTextMessageContent)
 from search_engine_parser import GoogleSearch
 
-from Yuriko import (
+from Predator import (
     DEV_USERS,
     EVENT_LOGS, 
     BOT_USERNAME,
     ubot2,
 )
-from Yuriko import pbot as app 
-from Yuriko import arq
-from Yuriko.services.keyboard import Ikb
-from Yuriko.utils.pluginhelper import convert_seconds_to_minutes as time_convert, fetch
-from Yuriko.services.tasks import _get_tasks_text, all_tasks, rm_task
-from Yuriko.services.types import InlineQueryResultCachedDocument
-from Yuriko.modules.info import get_chat_info, get_user_info
-from Yuriko.modules.music import download_youtube_audio
-from Yuriko.utils.functions import test_speedtest
-from Yuriko.utils.pastebin import paste
+from Predator import pbot as app 
+from Predator import arq
+from Predator.services.keyboard import Ikb
+from Predator.utils.pluginhelper import convert_seconds_to_minutes as time_convert, fetch
+from Predator.services.tasks import _get_tasks_text, all_tasks, rm_task
+from Predator.services.types import InlineQueryResultCachedDocument
+from Predator.modules.info import get_chat_info, get_user_info
+from Predator.modules.music import download_youtube_audio
+from Predator.utils.functions import test_speedtest
+from Predator.utils.pastebin import paste
 
 MESSAGE_DUMP_CHAT = EVENT_LOGS
 
@@ -122,7 +122,7 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[Yuriko Robot ❤️](https://t.me/decodesupport):**
+
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`
