@@ -7,9 +7,9 @@ import traceback
 import aiohttp
 from telethon import events
 
-from Yuriko import telethn as bot
-from Yuriko.modules.urluploader import download_file
-from Yuriko.utils.uputils import humanbytes, progress
+from Predator import telethn as bot
+from Predator.modules.urluploader import download_file
+from Predator.utils.uputils import humanbytes, progress
 
 DOWNLOADPATH = "Downloads/"
 
@@ -83,7 +83,8 @@ async def tsh(event):
 
             str(time.time() - start)
             await orta.edit(
-                f"File Successfully Uploaded to TransferSh.\n\nLink 👉 {download_link}\nExpired Date 👉 {final_date}\n\nUploaded by *AsunaRobot*"
+                f"File Successfully Uploaded to TransferSh.\n\nLink 👉 {download_link}\nExpired Date 👉 {final_date}\n\nUploaded by *Predator*"
+              
             )
         except Exception as e:
             traceback.print_exc()
@@ -118,7 +119,7 @@ async def tmp(event):
 
             str(time.time() - start)
             await orta.edit(
-                f"File Successfully Uploaded to TmpNinja.\n\nLink 👉 {download_link}\n\nUploaded by *AsunaRobot*"
+                f"File Successfully Uploaded to TmpNinja.\n\nLink 👉 {download_link}\n\nUploaded by *Predator*"
             )
         except Exception as e:
             traceback.print_exc()
