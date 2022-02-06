@@ -3,14 +3,14 @@ from io import BytesIO
 import random
 from typing import Optional
 
-import Yuriko.modules.sql.notes_sql as sql
-from Yuriko import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
-from Yuriko.modules.disable import DisableAbleCommandHandler
-from Yuriko.modules.helper_funcs.handlers import MessageHandlerChecker
-from Yuriko.modules.helper_funcs.chat_status import user_admin, connection_status
-from Yuriko.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from Yuriko.modules.helper_funcs.msg_types import get_note_type
-from Yuriko.modules.helper_funcs.string_handling import (
+import Predator.modules.sql.notes_sql as sql
+from Predator import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
+from Predator.modules.disable import DisableAbleCommandHandler
+from Predator.modules.helper_funcs.handlers import MessageHandlerChecker
+from Predator.modules.helper_funcs.chat_status import user_admin, connection_status
+from Predator.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from Predator.modules.helper_funcs.msg_types import get_note_type
+from Predator.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
 )
 from telegram import (
