@@ -1,9 +1,9 @@
 import html
 import random
-import Yuriko.modules.truth_and_dare_string as truth_and_dare_string
-from Yuriko import dispatcher
+import Predator.modules.truth_and_dare_string as truth_and_dare_string
+from Predator import dispatcher
 from telegram import ParseMode, Update, Bot
-from Yuriko.modules.disable import DisableAbleCommandHandler
+from Predator.modules.disable import DisableAbleCommandHandler
 from telegram.ext import CallbackContext, run_async
 
 
