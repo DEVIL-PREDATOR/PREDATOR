@@ -2,8 +2,8 @@ import asyncio
 import time
 from telethon import events
 
-from Yuriko import telethn
-from Yuriko.modules.helper_funcs.telethn.chatstatus import (
+from Predator import telethn
+from Predator.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages,
     user_is_admin,
 )
