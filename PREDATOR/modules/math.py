@@ -1,8 +1,8 @@
 import math
 
 import pynewtonmath as newton
-from Yuriko import dispatcher
-from Yuriko.modules.disable import DisableAbleCommandHandler
+from Predator import dispatcher
+from Predator.modules.disable import DisableAbleCommandHandler
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
