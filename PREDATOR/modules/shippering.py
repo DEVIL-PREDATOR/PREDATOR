@@ -1,6 +1,6 @@
-from Yuriko import pbot as app
-from Yuriko.utils.errors import capture_err
-from Yuriko.ex_plugins.dbfunctions import get_couple, save_couple
+from Predator import pbot as app
+from Predator.utils.errors import capture_err
+from Predator.ex_plugins.dbfunctions import get_couple, save_couple
 from pyrogram import filters
 import random
 from datetime import datetime
