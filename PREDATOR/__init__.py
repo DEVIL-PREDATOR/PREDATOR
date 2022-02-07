@@ -119,7 +119,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from Yuriko.config import Development as Config
+    from Predator.config import Development as Config
 
     TOKEN = Config.TOKEN
 
